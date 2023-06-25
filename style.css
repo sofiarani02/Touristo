@@ -392,7 +392,7 @@ transform: scale(1.1);
 /* --------------------------- */
 
 .header {
-  animation: fade-in 1s ease-in;
+  animation: fade-in 0.5s ease-in;
 }
 
 @keyframes fade-in {
@@ -512,5 +512,9 @@ transform: scale(1.1);
     .feature-box{
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    .header{
+        background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(banner1.jpg);
     }
 }
